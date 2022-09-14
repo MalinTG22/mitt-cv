@@ -9,10 +9,10 @@
 body {
     
     
-    background-image: url(../Pictures/marjan-taghipour-uSwFIuK8dy0-unsplash.jpg);
+    background-image: url(../Pictures/website-design-background-1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+    background-size:cover;
+    
     
 }
 
@@ -64,11 +64,11 @@ body {
 }   
 
 p {
-    font-size:x-large;
+    font-size:large;
 }
 
 b {
-    font-size:xx-large;
+    font-size:large;
 }
 
 .snickare {
@@ -99,14 +99,14 @@ b {
     height: 100%;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .skills-bar .bar {
     margin: 5px;
 }
 .skills-bar .bar:first-child{
-    margin-top: 0px;
+    margin-top: 5px;
 } 
 .skills-bar .bar .info {
     margin-bottom: 5px;
@@ -119,7 +119,7 @@ b {
 .skills-bar .bar .progress-line{
     position: relative;
     height: 10px;
-    width: 199;
+    width: 240px;
     background: #f0f0f0;
    
     
@@ -128,7 +128,7 @@ b {
 
 .bar .progress-line span{
     height: 100%;
-    width: 80%;
+    width: 10%;
     background: black;
     position: absolute;
     border-radius: 10px;
@@ -156,13 +156,13 @@ b {
     position: absolute;
     content: "";
     right: 0;
-    top: -10px;
+    top: -4px;
     height: 0;
     width: 0;
-    border: 7px solid transparent;
+    border: 3px solid transparent;
     border-bottom-width: 0px;
     border-right-width: 0px;
-    border-top-color: orange;
+    border-top-color: white;
 }
 
 .bar .progress-line span::after {
