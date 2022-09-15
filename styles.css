@@ -129,7 +129,7 @@ b {
 .bar .progress-line span{
     height: 100%;
     width: 10%;
-    background: black;
+    background: darkgrey;
     position: absolute;
     border-radius: 10px;
     align-items: center;
