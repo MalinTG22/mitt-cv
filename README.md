@@ -1,2 +1,0 @@
-# mitt-cv
-CV
